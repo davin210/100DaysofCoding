@@ -9,15 +9,18 @@ public class App {
         System.out.println("TTL :"+TTL);
         System.out.println("Alamat :"+Alamat);
         System.out.println("Umur :"+Umur);
-        // perintah println adalah menampilkan variabel yang dipanggil hannya dalam 1 baris
+        // perintah println untuk menampilkan teks/variabel yang dipanggil hannya dalam 1 baris yang akan otomatis membuat baris baru setelahnya
+        System.out.println("\n");
         
-        System.out.print("Nama:\n"+Nama);
+        System.out.print("Nama:"+Nama);
         System.out.print("TTL:"+TTL);
         System.out.print("Alamat:"+Alamat);
-        System.out.print("Umur:\n"+Umur);
-        // perintah print adalah manampilkan semua variabel yang dipanggil dalam 1 baris yang sama
+        System.out.print("Umur:"+Umur);
+        /** perintah print untuk menampilkan teks,angka atau variabel kelayar tanpa membuat baris baru setelah menampil kan teks/variabel jadi hasil outputnya hanya
+         * 1 baris saja
+        */
 
-        System.out.println( );
+        System.out.println("\n");
 
         System.out.printf("Nama:%s\n",Nama);
         System.out.printf("TTL:%s\n",TTL);
