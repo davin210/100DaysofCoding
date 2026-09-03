@@ -9,11 +9,13 @@ public class App {
         System.out.println("TTL :"+TTL);
         System.out.println("Alamat :"+Alamat);
         System.out.println("Umur :"+Umur);
+        // perintah println adalah menampilkan variabel yang dipanggil hannya dalam 1 baris
         
         System.out.print("Nama:\n"+Nama);
         System.out.print("TTL:"+TTL);
         System.out.print("Alamat:"+Alamat);
         System.out.print("Umur:\n"+Umur);
+        // perintah print adalah manampilkan semua variabel yang dipanggil dalam 1 baris yang sama
 
         System.out.println( );
 
@@ -21,11 +23,11 @@ public class App {
         System.out.printf("TTL:%s\n",TTL);
         System.out.printf("Alamat:%s\n",Alamat);
         System.out.printf("Umur:%d\n",Umur);
-        /**
+        /**perintah printf memiliki kesamaan dengan println namun printf harus memasukakkan kode terlebih dahulu dan tidak harus ada tanda + untuk memanggil variabel
+         * dan juga printf bisa dibilang lebih rapi dibandingkan println
          * %s untuk string
          * %d untuk int
          * %f untuk desimal
-         * %.0f-%.3f
          * %n atau \n untuk line baru
         */
     }
