@@ -9,11 +9,11 @@ public class App {
         System.out.println("TTL :"+TTL);
         System.out.println("Alamat :"+Alamat);
         System.out.println("Umur :"+Umur);
-
-        System.out.print("Nama:"+Nama);
+        
+        System.out.print("Nama:\n"+Nama);
         System.out.print("TTL:"+TTL);
         System.out.print("Alamat:"+Alamat);
-        System.out.print("Umur:"+Umur);
+        System.out.print("Umur:\n"+Umur);
 
         System.out.println( );
 
