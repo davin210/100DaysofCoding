@@ -9,14 +9,14 @@ public class App {
         System.out.println("TTL :"+TTL);
         System.out.println("Alamat :"+Alamat);
         System.out.println("Umur :"+Umur);
-        // perintah println untuk menampilkan teks/variabel yang dipanggil hannya dalam 1 baris yang akan otomatis membuat baris baru setelahnya
+        // perintah println untuk menampilkan teks yang dipanggil hanya dalam 1 baris yang akan otomatis membuat baris baru setelahnya
         System.out.println("\n");
         
         System.out.print("Nama:"+Nama);
         System.out.print("TTL:"+TTL);
         System.out.print("Alamat:"+Alamat);
         System.out.print("Umur:"+Umur);
-        /** perintah print untuk menampilkan teks,angka atau variabel kelayar tanpa membuat baris baru setelah menampil kan teks/variabel jadi hasil outputnya hanya
+        /** perintah print untuk menampilkan teks kelayar tanpa membuat baris baru setelah menampilkan teks jadi hasil outputnya hanya
          * 1 baris saja
         */
 
