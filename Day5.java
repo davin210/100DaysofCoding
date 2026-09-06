@@ -1,6 +1,6 @@
 public class day5 {
     public static void main(String[] args) {
-        double DOUBLE = 75.5F;
+        double DOUBLE = 75.5;
         float FLOAT = 3.14159F;
         // tipe data ini adalah tipe data bilangan desimal
         System.out.println(DOUBLE);
