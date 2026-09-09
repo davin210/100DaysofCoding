@@ -6,7 +6,7 @@ public class day8 {
         // yang pertama pedeklarasian variabel(tentukan variabel apa yang akan diinput)
 
         umur = 18;
-        // yang kedua inisialisasi variabel (pemberian nama kepada variabel)
+        // yang kedua inisialisasi variabel (memasukkan nilai untuk variabelnya)
 
         System.out.printf("umur\t:%d\n",umur);
         // dibagian ini untuk menampilkan variabel yang telah kita masukkan tadi
