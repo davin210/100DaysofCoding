@@ -1,16 +1,20 @@
 public class day8 {
+    // disini pendeklarasian kelas atau bisa dicontohkan sebagai rumah
     public static void main(String[] args) {
-        int totalMahasiswa = 29;
-        /** cara mendeklarasikan adalah yang pertama kita harus tau
-         * data yang ingin kita input itu bertipe data apa angka kah, inisial atau kalimat
-         * lalu kita ketik tipe datanya
-         * nama dari data tersebut
-         * dan jumlahnya
+        // dan disini pendeklarasian seperti ruangan yang ada didalam rumah jadi ini bagian kecil dari class
+        int umur;
+        // yang pertama pedeklarasian variabel(tentukan variabel apa yang akan diinput)
+
+        umur = 18;
+        // yang kedua inisialisasi variabel (pemberian nama kepada variabel)
+
+        System.out.printf("umur\t:%d\n",umur);
+        // dibagian ini untuk menampilkan variabel yang telah kita masukkan tadi
+
+        umur = 23;
+        /**untuk update variabel kita hanya perlu memanggil nama variabel
+         * lalu memasukkan data yeng terbaru
          */
-        totalMahasiswa = 30;
-        /**sedangkan untuk update data kita perlu menuliskan nama data tersebut 
-         * dan memasukan data yaang terbaru 
-         */
-        System.out.println(totalMahasiswa);
+        System.out.printf("umur\t:%d",umur);
     }
 }
