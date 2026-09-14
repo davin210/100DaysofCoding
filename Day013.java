@@ -25,3 +25,25 @@ public class evaluasi5 {
         da.close();
     }
 } 
+import java.util.Scanner;
+
+public class evaluasi4 {
+    public static void main(String[] args) {
+        Scanner da= new Scanner(System.in);
+        System.out.print("umur :");
+        int umur= da.nextInt();
+        System.out.println("tinggi :");
+        double tinggi = da.nextDouble();
+        da.nextLine();
+        System.out.println("nim :");
+        final String nim = da.nextLine();
+        
+
+        System.out.printf("umur saya =%d\n",umur);
+        
+        System.out.printf("tinggi saya =%f\n",tinggi);
+        
+        System.out.printf("Nim saya =%s\n",nim);
+         da.close();
+    }
+}
