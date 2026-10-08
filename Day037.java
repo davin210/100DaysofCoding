@@ -9,7 +9,7 @@ public class day37 {
         System.out.println("BILANGAN NEGATIF");
     }else if (q==0) {
         System.out.println("BILANGAN NOL");
-    }{
+    }else{
         System.out.println("BILANGAN POSITIF");
     }
     d.close();
