@@ -19,8 +19,10 @@ public class day38 {
             System.out.println("ayam bakar madu");
         }else if (menu==3) {
             System.out.println("udang saus padang");
-        }else {
+        }else if (menu==4) {
             System.out.println("nasi goreng");
+        }else{
+            System.out.println("menu tidak terdaftar");
         }
         d.close();
     }
