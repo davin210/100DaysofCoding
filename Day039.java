@@ -28,7 +28,7 @@ public class day39 {
                 System.out.println(nilaiA-nilaiB);
             }else if (tindakan==5) {
                System.out.println(nilaiA%nilaiA);
-            }{
+            }else{
                  System.out.println("ERR");
             }
     d.close();
