@@ -5,22 +5,15 @@ public class day43 {
         Scanner q= new Scanner(System.in);
         System.out.println();
         int a= q.nextInt();
-        int b=q.nextInt();
-       while (a<=15) {
-        System.out.println(a+=3);
-        System.out.println(a+=5);
-       }
-       if (b<=20) {
-        System.out.println(a+3);
-       }else if (b<=20){
-        System.out.println(a+5);
-       }else if (b<=20) {
-        System.out.println(a+3);
-       }else if (b<=20){
-        System.out.println(a+5);
-       }else{
-        System.out.println("angka terlalu besar");
-       }
+        if (a%3==0&a%5==0) {
+            System.out.println("BILANGAN KELIPATAN 3 DAN 5");
+        } else if(a%3==0){
+            System.out.println("BILANGAN KELIPATAAN 3");
+        }else if (a%5==0) {
+            System.out.println("BILANGAN KELIPATAN 5");
+        }else{
+            System.out.println("BUKAN BILANGAN KELIPATAN 3 DAN 5");
+        }
         q.close();  
     }
 }
