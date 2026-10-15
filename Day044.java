@@ -22,19 +22,17 @@ public class day44 {
             System.out.println("Predikat Nilai:D");
         }else if (nilai>=0&&nilai<=49) {
             System.out.println("Presdikat nilai:E");
+             if (nilai>=60&&nilai<=100) {
+            System.out.println("Status=Lulus");
+            }else if (nilai>=0&&nilai<=59) {
+            System.out.println("Status=Tidak Lulus");
+            }
         }else{
             System.out.println("nilai tidak terdaftar");
         }
 
-        if (nilai>=60&&nilai<=100) {
-            System.out.println("Status=Lulus");
-        }else if (nilai>=0&&nilai<=59) {
-            System.out.println("Status=Tidak Lulus");
-        }else{
-            System.out.println("nilai tidak terdaftar");
-        }
+       
         
         q.close();
     }
 }
-
