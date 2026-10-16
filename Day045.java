@@ -14,7 +14,7 @@ public class day45 {
                 break;
                 case 4:
                     System.out.println("main");
-        
+                break;
             default :
             System.out.println("Yang benr njit");
                 break;
