@@ -3,9 +3,9 @@ import java.util.Scanner;
 public class day48 {
     public static void main(String[] args) {
         Scanner q = new Scanner (System.in);
-        float a=q.nextFloat();
+        int a=q.nextInt();
         char simbol=q.next().charAt(0);
-        float b=q.nextFloat();
+        int b=q.nextFInt();
         System.out.println("===Kalkulator Sederhana===");
         switch (simbol) {
             case '+':
