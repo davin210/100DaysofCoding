@@ -5,8 +5,16 @@ public class day63 {
         Scanner q= new Scanner(System.in);
         double m =q.nextDouble();
         double n =q.nextDouble();
-        double hasil =Math.pow(m, n);
+        double hasil =Math.pow(m,n);
         System.out.println(hasil);
+        int hasil2=1;
+        int N=(int)n;
+        int M=(int)m;
+        for (int i = 1; i <=N; i++) {
+            hasil2*=M;
+        }
+        System.out.println(hasil2);
         q.close();
     }
 }
+
