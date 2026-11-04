@@ -13,11 +13,11 @@ public class day64 {
         q.close();
     }
     public static int faktorial(int n){
-        return (n <= 1) ? 1 : n * hitungFaktorial(n - 1);
+        return (n <= 1) ? 1 : n * faktorial(n - 1);
     }
     public static void main(String[]args){
         Scanner h=new Scanner(System.in);
-        int no =q.nextInt();
-        System.out.println(faktorial(no))
+        int no =h.nextInt();
+        System.out.println(faktorial(no));
     }
 }
