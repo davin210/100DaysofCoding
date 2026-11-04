@@ -15,7 +15,7 @@ public class day64 {
     public static int faktorial(int n){
         return (n <= 1) ? 1 : n * faktorial(n - 1);
     }
-    public static void main(String[]args){
+    public static void kaka(String[]args){
         Scanner h=new Scanner(System.in);
         int no =h.nextInt();
         System.out.println(faktorial(no));
