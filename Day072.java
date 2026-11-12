@@ -10,7 +10,7 @@ public class day72 {
             a=q.nextInt();
             hasil+=a;
             berapa++;
-        } while (a>0);
+        } while (a>=0);
         System.out.printf("hasil penjumlahan:%d\nangka yang dimaksukkan:%d",hasil,berapa);
         q.close();
     }
