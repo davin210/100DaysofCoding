@@ -16,32 +16,32 @@ public class day73 {
         System.out.println("\n\n=== PESANAN RESTO AMBA ===");
         System.out.print("Nama: ");
         String nama= q.nextLine();
-        int i=1;
-        int ii=1;
-        int iii=1;
-        int iv=1;
-        int v=1;
+        int i=0;
+        int ii=0;
+        int iii=0;
+        int iv=0;
+        int v=0;
         do {
             menu=q.nextInt();  
                 switch (menu) {
                 case 1:
-                    System.out.printf("Total %d Ayam Geprek\n",i);
+                    System.out.printf("Ayam Geprek\n");
                     i++;
                     break;
                 case 2:
-                    System.out.printf("Total %d Ayam Bakar\n",ii);
+                    System.out.printf("Ayam Bakar\n");
                     ii++;
                     break;
                 case 3:
-                    System.out.printf("Total %d Ayam Geprek\n",iii);
+                    System.out.printf("Ayam Geprek\n");
                     iii++;
                     break;
                 case 4:
-                    System.out.printf("Total %d Ayam Goreng\n",iv);
+                    System.out.printf("Ayam Goreng\n");
                     iv++;
                     break;
                 case 5:
-                    System.out.printf("Total %d Ayam Goreng Bawang Putih\n",v);
+                    System.out.printf("Ayam Goreng Bawang Putih\n");
                     v++;
                     break;
                 case 0:
@@ -52,6 +52,23 @@ public class day73 {
                     break;
                 }
         } while (menu>0||menu<0);
+        System.out.println("\n\n===NOTA PESANAN RESTO AMBA ===");
+        System.out.println("Nama : "+nama);
+        if (i>0) {
+            System.out.printf("Total %d Ayam Geprek\n",i);
+        }
+        if (ii>0) {
+            System.out.printf("Total %d Ayam Bakar\n",ii);
+        }
+        if (iii>0) {
+            System.out.printf("Total %d Ayam Geprek\n",iii);
+        }
+        if (iv>0) {
+            System.out.printf("Total %d Ayam Goreng\n",iv);
+        }
+        if (v>0) {
+            System.out.printf("Total %d Ayam Goreng Bawang Putih\n",v);
+        }
         
         q.close();
     }
