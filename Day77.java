@@ -22,10 +22,10 @@ public class day77 {
             System.out.print("Pasword:");
             pwlog=q.nextLine();
             if (userlog.isEmpty()) {
-                System.out.println("=== TOLONG USER JANGAN DI KOSONGKANG");
+                System.out.println("=== USER KOSONG ===");
             }
             if (pwlog.isEmpty()) {
-                System.out.println("=== TOLONG PASWORD JANGAN DI KOSONGKANG");
+                System.out.println("=== PASWORD KOSONG ===");
             }
         } while (!user.equals(userlog)||!pw.equals(pwlog));
         System.out.println();
